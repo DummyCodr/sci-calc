@@ -46,7 +46,7 @@ class CalculatorEngine:
         expr = re.sub(r"\)(pi|e|sin|cos|tan|asin|acos|atan|sqrt|log|ln|exp|cbrt)", r")*\1", expr)
         expr = re.sub(r"\)(\d)", r")*\1", expr)
         
-       """factorials"""
+        """factorials"""
         expr = re.sub(r"(\d+)!+", r"fact(\1)", expr)
         
         """combinations and permutations"""
