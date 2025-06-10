@@ -1,0 +1,13 @@
+[project]
+name = "scientific_calculator"
+version = "0.1.0"
+description = "A modern scientific calculator with GUI"
+requires-python = ">=3.10"
+dependencies = [
+    "customtkinter>=5.2.0",
+    "numpy>=1.24.0"
+]
+
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
